@@ -3,21 +3,20 @@
 print('Single level Inheritance')
 
 class A:
-    def fariq(self):
+    def student1(self):
         rollno=7084593
         marks=584
         print(rollno,marks)
 
 class B(A):
-    def buvanesh(self):
+    def student2(self):
         rollno=7084588
         marks=503
         print(rollno,marks)
         
 b=B()
 
-b.buvanesh()
-b.fariq()
+b.student1()
 
 print(end="\n")
 
@@ -26,28 +25,28 @@ print(end="\n")
 print('Multilevel Inheritance')
 
 class A1:
-    def fariq(self):
+    def student1(self):
         rollno=7084593
         marks=584
         print(rollno,marks)
 
 class A2(A1):
-    def buvanesh(self):
+    def student2(self):
         rollno=7084588
         marks=503
         print(rollno,marks)
         
 class A3(A2):
-    def mayish(self):
+    def student3(self):
         rollno=7084593
         marks=584
         print(rollno,marks)
 
 a3 = A3()
 
-a3.fariq()     
-a3.buvanesh()
-a3.mayish()
+a3.student1()     
+a3.student2()
+a3.student3()
 
 print(end="\n")
 
@@ -56,27 +55,27 @@ print(end="\n")
 print('Multiple Inheritance')
 
 class a:
-    def fariq(self):
+    def student1(self):
         rollno=7084593
         marks=584
         print(rollno,marks)
 
 class b:
-    def buvanesh(self):
+    def student2(self):
         rollno=7084588
         marks=503
         print(rollno,marks)
         
 class c(a,b):
-    def mayish(self):
+    def student3(self):
         rollno=7084593
         marks=584
         print(rollno,marks)
 
 c1= c()
 
-c1.fariq()    
-c1.buvanesh()
+c1.student1()    
+c1.student2()
 
 print(end="\n")
 
@@ -85,19 +84,19 @@ print(end="\n")
 print('Hierarchical Inheritance')
 
 class a1:
-    def fariq(self):
+    def student1(self):
         rollno=7084593
         marks=584
         print(rollno,marks)
 
 class b1(a1):
-    def buvanesh(self):
+    def student2(self):
         rollno=7084588
         marks=503
         print(rollno,marks)
         
 class c1(a1):
-    def mayish(self):
+    def student3(self):
         rollno=7084593
         marks=584
         print(rollno,marks)
@@ -105,8 +104,8 @@ class c1(a1):
 b11=b1()
 c11=c1()
 
-b11.fariq()
-c11.fariq()
+b11.student1()
+c11.student1()
 
 
 
