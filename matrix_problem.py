@@ -2,6 +2,7 @@ from numpy import *
 
 matrix=array([[1,3,7],[5,6,9],[8,2,0]])
 print(matrix)
+print(len(matrix))
 
 to_find=int(input("Enter an element : "))
 for i in range(len(matrix)):
