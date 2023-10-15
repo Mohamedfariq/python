@@ -10,7 +10,7 @@ while i<len(x):
             print()
     if len(x[i])%2==0:
         try:
-            print(x[i+1],end=' ')
+            print(x[i],end=' ')
         except IndexError:
             print()
     i=i+1
