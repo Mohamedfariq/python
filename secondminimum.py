@@ -6,10 +6,10 @@ for i in range(n):
 minimum=list1[0]
 secondmin=list1[1]
 for i in list1[1:]:
-    if i>minimum:
+    if i<minimum:
         secondmin=minimum
         minimum=i
-    elif i>secondmin:
+    elif i<secondmin:
         secondmin=i      
 print(secondmin)
     
