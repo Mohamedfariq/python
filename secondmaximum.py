@@ -5,7 +5,7 @@ for i in range(n):
     list1.append(x)
 maximum=list1[0]
 secondmax=list1[1]
-for i in list1[1:]:
+for i in list1:
     if i>maximum:
         secondmax=maximum
         maximum=i
