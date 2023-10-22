@@ -9,7 +9,7 @@ for i in list1[1:]:
     if i<minimum:
         secondmin=minimum
         minimum=i
-    elif i<secondmin:
+    elif i<secondmin and i!=minimum:
         secondmin=i      
 print(secondmin)
     
