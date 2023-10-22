@@ -7,8 +7,10 @@ for i in range(n):
 print("\n Values = ",numbers)
 
 x=max(numbers)
-numbers.remove(x)
-
+try:
+    numbers.pop(x)
+except IndexError:
+    print()
 y=max(numbers)
 print("\n",y)
 
