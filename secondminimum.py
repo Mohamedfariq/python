@@ -5,7 +5,7 @@ for i in range(n):
     list1.append(x)
 minimum=list1[0]
 secondmin=list1[1]
-for i in list1[1:]:
+for i in list1:
     if i<minimum:
         secondmin=minimum
         minimum=i
