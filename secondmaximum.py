@@ -9,7 +9,7 @@ for i in list1[1:]:
     if i>maximum:
         secondmax=maximum
         maximum=i
-    elif i>secondmax:
+    elif i>secondmax and i!=maximum:
         secondmax=i      
 print(secondmax)
     
