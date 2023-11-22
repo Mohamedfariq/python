@@ -20,6 +20,7 @@ n=int(input("Enter the number of elements :"))
 for i in range(n):
     x=int(input("Enter an element to be added :"))
     l.append(x)
+l=sorted(l)
 key=int(input("Enter an element to be searched :"))
 print(binarysearch(l,key)) 
 
