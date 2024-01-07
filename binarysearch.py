@@ -9,11 +9,11 @@ def binarysearch(l,key):
         else:
             if l[mid]<key:
                 low=mid
-            if l[mid]>key:
+            elif l[mid]>key:
                 high=mid
-            else:
-                print("Element not found")
-                break
+    else:
+        print("Element not found")
+            
     return " "
 l=[]
 n=int(input("Enter the number of elements :"))
